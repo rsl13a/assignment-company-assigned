@@ -1,33 +1,180 @@
-.App {
+/* Pen-specific styles */
+html, body, section {
+  height: 100%;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-color: #008cba;
+  flex: 1;
+  padding: 1rem;
+  height: 125%;
+}
+
+.right-half {
+  background-color: #008cba;
+  flex: 1;
+  padding: 1rem;
+  height: 125%;
+  left: 10px;
+}
+
+.box1{ 
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 10px;
+  border: 1px solid grey;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.additional-box1{
+  width: 48%;
+  height: 100%;
+  padding: 0px;
+  margin-left: 0%;
+  margin: 10px;
+  border: 1px solid grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.resize {
+    width: 133px;
+    height: auto;
+    padding: 10px;
+}
+
+.wrapper0 {
+  padding: 20px;
+  background: #008cba;
+  max-width: 100ch;
+  margin: 30px auto;
+}
+
+.wrapper {
+  padding: 80px;
+  background: white;
+  max-width: 500ch;
+  margin: 0px 10px 20px;
+}
+
+.wrapper1 {
+  padding: 35px;
+  background: white;
+  max-width: 100ch;
+}
+
+.wrapper2 {
+  padding: 20px;
+  background: #008cba;
+  max-width: 500ch;
+}
+
+.button{
+  background-color: #008cba;
+  text-align: center;
+  font-size: 20px;
+  margin: 5px 2px;
+  padding: 5px 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.arranging{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  height: 927px;
+}
+
+.react-switch{
+  float: right;
+}
+
+.outlayer {
+  padding: 50px;
+  background: white;
+  max-width: 100ch;
+  margin: 0px;
+}
+
+.picture{
+   text-align: center;
+   display: block;
+}
+
+.Mon{ 
+  height: 100%;
+  padding-right: 30px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.Tue{ 
+  height: 100%;
+  padding-right: 30px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.Wed{ 
+  height: 100%;
+  padding-right: 6px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.Thurs{ 
+  height: 100%;
+  padding-right: 23px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.Fri{ 
+  height: 100%;
+  padding-right: 45px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.Sat{ 
+  height: 100%;
+  padding-right: 26px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.Sun{ 
+  height: 100%;
+  padding-right: 37px;
+  margin: 0px;
+  line-height: 30px;
+  border: 1px solid transparent;
+}
+
+.outer-boarder{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 50px;
+  border: 1px solid #008cba;
+}
+
+.fa:hover{
+  border: 2px solid #008cba;
 }
